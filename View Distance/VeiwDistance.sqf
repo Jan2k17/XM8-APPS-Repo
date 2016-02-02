@@ -3,8 +3,6 @@ View Distance script made by Shix
 http://www.exilemod.com/profile/4566-shix/
 Made for XM8 Apps http://www.exilemod.com/topic/9040-updated-xm8-apps/
 */
-disableSerialization;
-_display = uiNameSpace getVariable ["RscExileXM8", displayNull];
 /////////////////
 //CONFIG
 ////////////////
@@ -16,6 +14,9 @@ _maxObjViewDist = 3000; //Maximum Object Veiw Distance
 /////////////////
 //CONFIG END
 ////////////////
+
+disableSerialization;
+_display = uiNameSpace getVariable ["RscExileXM8", displayNull];
 
 _curViewDist = viewDistance;
 _curObjViewDist = getObjectViewDistance select 0;

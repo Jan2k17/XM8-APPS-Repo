@@ -9,7 +9,7 @@ inside XM8Apps_Init.sqf change the app you want to use to
 
 //App 1
 _app1Text = "Info";
-_app1Logo = "\exile_assets\texture\ui\xm8_app_cosa_nostra_ca.paa"
+_app1Logo = "\exile_assets\texture\ui\xm8_app_cosa_nostra_ca.paa";
 app1_action = {
   execVM "xm8Apps\Apps\Info Page\InfoPage.sqf";
 };

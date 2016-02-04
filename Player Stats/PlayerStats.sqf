@@ -1,10 +1,7 @@
 /*
-BASE script made by Shix http://www.exilemod.com/profile/4566-shix/
-this is just the base for any project so scripters do not have to figure out how to hide controlls and figure out a go back solution
+Player stats script made by Shix http://www.exilemod.com/profile/4566-shix/
+Allows players to view their stats while in game through the xm8
 Made for XM8 Apps http://www.exilemod.com/topic/9040-updated-xm8-apps/
-I would strongly suggest reading these 2 BIS WIKI articles if you have never done anything like this before
-https://community.bistudio.com/wiki/ctrlCreate
-https://community.bistudio.com/wiki/ctrlSetPosition
 */
 disableSerialization;
 _display = uiNameSpace getVariable ["RscExileXM8", displayNull];

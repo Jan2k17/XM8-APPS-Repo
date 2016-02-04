@@ -41,6 +41,10 @@ _line13Text = "Some Text";
 
 disableSerialization;
 _display = uiNameSpace getVariable ["RscExileXM8", displayNull];
+
+//set XM8 title
+(_display displayCtrl 4004) ctrlSetStructuredText (parseText (format ["<t align='center' font='RobotoMedium'>Info</t>"]));
+
 //Hides all xm8 apps controlls then deletes them for a smooth transition
 _xm8Controlls = [991,881,992,882,993,883,994,884,995,885,996,886,997,887,998,888,999,889,9910,8810,9911,8811,9912,8812];
 {

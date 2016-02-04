@@ -18,6 +18,9 @@ _maxObjViewDist = 3000; //Maximum Object Veiw Distance
 disableSerialization;
 _display = uiNameSpace getVariable ["RscExileXM8", displayNull];
 
+//set XM8 title
+(_display displayCtrl 4004) ctrlSetStructuredText (parseText (format ["<t align='center' font='RobotoMedium'>View Distance</t>"]));
+
 _curViewDist = viewDistance;
 _curObjViewDist = getObjectViewDistance select 0;
 

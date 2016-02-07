@@ -19,7 +19,7 @@ if(isNil "LastUsedCheck")then{
 LastUsedCheck = 0;
 };
 
-if(diag_tickTime - LastUsedCheck > _cooldownTime)then{
+if((LastUsedCheck == 0) || (diag_tickTime - LastUsedCheck > _cooldownTime))then{
   _display = (findDisplay 24015) closeDisplay 0;
 
   _playersNearby = 0;
